@@ -15,18 +15,28 @@ The project is organized into several components, each responsible for different
 ### Directory Structure
 
 ChatApp/
-├── include/
-│ ├── Client.h
-│ ├── ClientHandler.h
-│ └── Server.h
-├── src/
-│ ├── Client.cpp
-│ ├── ClientHandler.cpp
-│ ├── ClientMain.cpp
-│ ├── Server.cpp
-│ └── ServerMain.cpp
-└── CMakeLists.txt
 
+├── include/
+
+│ ├── Client.h
+
+│ ├── ClientHandler.h
+
+│ └── Server.h
+
+├── src/
+
+│ ├── Client.cpp
+
+│ ├── ClientHandler.cpp
+
+│ ├── ClientMain.cpp
+
+│ ├── Server.cpp
+
+│ └── ServerMain.cpp
+
+└── CMakeLists.txt
 
 ## Components
 
