@@ -68,3 +68,17 @@ The `Server` class initializes the server socket, accepts incoming client connec
 1. **Generate build files with CMake:**
    ```sh
    cmake -B build
+
+2. **Compile the project**
+   ```sh
+   cmake --build build
+
+### Running
+
+1. **Start the server:**
+   ```sh
+   ./build/ChatServer
+
+2. **Start a client**
+   ```sh
+   ./build/ChatClient
