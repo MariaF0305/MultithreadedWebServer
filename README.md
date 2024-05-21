@@ -82,3 +82,9 @@ The `Server` class initializes the server socket, accepts incoming client connec
 2. **Start a client**
    ```sh
    ./build/ChatClient
+
+## Notes
+
+- The server listens on port 8080 by default. You can change this by modifying the port number - in the ServerMain.cpp and ClientMain.cpp files.
+- The client and server communicate using a simple text-based protocol over TCP.
+- To exit the client, type quit and press Enter. The client will close the connection gracefully.
